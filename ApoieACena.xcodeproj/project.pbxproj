@@ -14,6 +14,7 @@
 		3F264E2C1E93DEB700BAC4FA /* fotaredondalagrand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F264E2B1E93DEB700BAC4FA /* fotaredondalagrand.png */; };
 		7C7F4F191E8ED799008DD0CE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F4F181E8ED799008DD0CE /* SearchViewController.swift */; };
 		7C7F4F1D1E8ED7D9008DD0CE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F4F1C1E8ED7D9008DD0CE /* ProfileViewController.swift */; };
+		7C7F4F1F1E8EDE3E008DD0CE /* FriendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F4F1E1E8EDE3E008DD0CE /* FriendItem.swift */; };
 		7CA005221E8C24F700BA7719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA005211E8C24F700BA7719 /* AppDelegate.swift */; };
 		7CA005271E8C24F700BA7719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA005251E8C24F700BA7719 /* Main.storyboard */; };
 		7CA005291E8C24F700BA7719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA005281E8C24F700BA7719 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		3F264E2B1E93DEB700BAC4FA /* fotaredondalagrand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fotaredondalagrand.png; sourceTree = "<group>"; };
 		7C7F4F181E8ED799008DD0CE /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		7C7F4F1C1E8ED7D9008DD0CE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7C7F4F1E1E8EDE3E008DD0CE /* FriendItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendItem.swift; sourceTree = "<group>"; };
 		7CA0051E1E8C24F700BA7719 /* ApoieACena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApoieACena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA005211E8C24F700BA7719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA005261E8C24F700BA7719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };

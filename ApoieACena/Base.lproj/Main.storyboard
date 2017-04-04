@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Search-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ApoieACena" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SearchViewController" customModule="ApoieACena" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -56,14 +56,19 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="7sE-PN-q6Y"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ztY-jb-MaI"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.89019607840000003" green="0.87058823529999996" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="El4-Qk-gvF"/>
+                    <navigationItem key="navigationItem" title="Search" id="pnb-d0-UbV"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="jqz-VX-79m" id="c4S-um-eZn"/>
+                        <outlet property="tableView" destination="C5C-Gm-mDV" id="4PF-ln-6ZF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -77,7 +82,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+            <point key="canvasLocation" x="1911.2" y="38.23088455772114"/>
         </scene>
         <!--Player View Controller-->
         <scene sceneID="cXe-3S-6bz">
@@ -156,7 +161,7 @@
         <!--Profile-->
         <scene sceneID="8ZF-qd-QlA">
             <objects>
-                <viewController id="Qq8-zA-sgP" customClass="ViewController" customModule="ApoieACena" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qq8-zA-sgP" customClass="ProfileViewController" customModule="ApoieACena" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wJa-to-dsI"/>
                         <viewControllerLayoutGuide type="bottom" id="ceW-Yn-40u"/>
@@ -176,7 +181,7 @@
                                 </items>
                             </tabBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="playApoieACena.png" translatesAutoresizingMaskIntoConstraints="NO" id="sJN-G6-Twv">
-                                <rect key="frame" x="319" y="514" width="40" height="40"/>
+                                <rect key="frame" x="289" y="555" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -312,13 +317,32 @@
                     </tabBar>
                     <connections>
                         <segue destination="siv-b0-YDj" kind="relationship" relationship="viewControllers" id="aNj-eF-cN1"/>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="LKh-UW-5yd"/>
+                        <segue destination="Tc1-xB-MIf" kind="relationship" relationship="viewControllers" id="LKh-UW-5yd"/>
                         <segue destination="Qq8-zA-sgP" kind="relationship" relationship="viewControllers" id="U4h-Iv-NHF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J1i-7P-IHz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="elg-cY-Jls">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tc1-xB-MIf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="search" id="El4-Qk-gvF"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="K2f-Dd-fla">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dqA-YL-oc0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XwJ-Qa-Uod" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="38.23088455772114"/>
         </scene>
     </scenes>
     <resources>
