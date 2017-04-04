@@ -19,10 +19,10 @@ class PlayerViewController: UIViewController {
     
     @IBAction func play(_ sender: Any) {
         player.play()
-        while (player.play()){
-            self.timeprogress = Float(self.player.currentTime)
-            Time?.progress = Float(self.player.duration) / self.timeprogress
-        }
+//        while (player.play()){
+//            self.timeprogress = Float(self.player.currentTime)
+//            Time?.progress = Float(self.player.duration) / self.timeprogress
+//        }
     }
     
     @IBAction func stop(_ sender: Any) {
@@ -31,7 +31,7 @@ class PlayerViewController: UIViewController {
     }
     
     @IBOutlet weak var Time: UIProgressView?
-    var timeprogress : Float = 0.0
+  //  var timeprogress : Float = 0.0
     
 
     override func viewDidLoad() {
