@@ -7,37 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F264E241E92AC3700BAC4FA /* Fim.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F264E231E92AC3700BAC4FA /* Fim.wav */; };
 		3F264E261E92B8CD00BAC4FA /* BandaLegrand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F264E251E92B8CD00BAC4FA /* BandaLegrand.jpg */; };
-		3F264E281E92CAE800BAC4FA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264E271E92CAE800BAC4FA /* PlayerViewController.swift */; };
-		3F264E2A1E92CD7400BAC4FA /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264E291E92CD7400BAC4FA /* LocalViewController.swift */; };
+		3F264E281E92CAE800BAC4FA /* LegrandPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264E271E92CAE800BAC4FA /* LegrandPlayerViewController.swift */; };
 		3F264E2C1E93DEB700BAC4FA /* fotaredondalagrand.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F264E2B1E93DEB700BAC4FA /* fotaredondalagrand.png */; };
-		7C7F4F191E8ED799008DD0CE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F4F181E8ED799008DD0CE /* SearchViewController.swift */; };
+		3FD630441E981C3A00FBAED3 /* BreakEven.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD630431E981C3A00FBAED3 /* BreakEven.png */; };
+		3FD630481E981E0600FBAED3 /* ic_error_outline_white_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD630471E981E0600FBAED3 /* ic_error_outline_white_2x.png */; };
+		3FD6304C1E981E1B00FBAED3 /* ic_pause_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD630491E981E1A00FBAED3 /* ic_pause_white.png */; };
+		3FD6304D1E981E1B00FBAED3 /* ic_play_arrow_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD6304A1E981E1A00FBAED3 /* ic_play_arrow_white.png */; };
+		3FD6304E1E981E1B00FBAED3 /* ic_stop_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD6304B1E981E1A00FBAED3 /* ic_stop_white.png */; };
+		3FD630501E981E5700FBAED3 /* Fim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD6304F1E981E5700FBAED3 /* Fim.mp3 */; };
 		7C7F4F1D1E8ED7D9008DD0CE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F4F1C1E8ED7D9008DD0CE /* ProfileViewController.swift */; };
-		7C7F4F1F1E8EDE3E008DD0CE /* FriendItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F4F1E1E8EDE3E008DD0CE /* FriendItem.swift */; };
 		7CA005221E8C24F700BA7719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA005211E8C24F700BA7719 /* AppDelegate.swift */; };
 		7CA005271E8C24F700BA7719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA005251E8C24F700BA7719 /* Main.storyboard */; };
 		7CA005291E8C24F700BA7719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA005281E8C24F700BA7719 /* Assets.xcassets */; };
-		7CA0052C1E8C24F700BA7719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CA0052A1E8C24F700BA7719 /* LaunchScreen.storyboard */; };
-		7CA005361E8D301F00BA7719 /* playApoieACena.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA005351E8D301F00BA7719 /* playApoieACena.png */; };
+		A204C87B1E97B29E00F3E14F /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A204C87A1E97B29E00F3E14F /* LocalViewController.swift */; };
+		A204C87E1E97B46400F3E14F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A204C87D1E97B46400F3E14F /* CoreLocation.framework */; };
+		A204C8801E97B5B800F3E14F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A204C87F1E97B5B800F3E14F /* Launch Screen.storyboard */; };
+		A21949D31E9E63150059FD4E /* Zebu.png in Resources */ = {isa = PBXBuildFile; fileRef = A21949D21E9E63150059FD4E /* Zebu.png */; };
+		A21949D61E9E63240059FD4E /* Zebu - Direito de te amar cover Belo ft Talento.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A21949D41E9E63240059FD4E /* Zebu - Direito de te amar cover Belo ft Talento.mp3 */; };
+		A21949D71E9E63240059FD4E /* Zebu - Essa Tal Liberdade SPC Cover Remix ft Phillip Nutt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A21949D51E9E63240059FD4E /* Zebu - Essa Tal Liberdade SPC Cover Remix ft Phillip Nutt.mp3 */; };
+		A21949D91E9E6A7E0059FD4E /* DireitodeAmarPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21949D81E9E6A7E0059FD4E /* DireitodeAmarPlayerViewController.swift */; };
+		A21D9B0E1E9E78020062B9B7 /* EssaLiberdadePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21D9B0D1E9E78020062B9B7 /* EssaLiberdadePlayerViewController.swift */; };
+		A25773DB1E967F3F00F2C256 /* light_visulation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A25773DA1E967F3F00F2C256 /* light_visulation.jpg */; };
+		A25773DD1E96A2D400F2C256 /* MinasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25773DC1E96A2D400F2C256 /* MinasViewController.swift */; };
+		A25773E11E96B8CA00F2C256 /* SaoPauloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25773E01E96B8CA00F2C256 /* SaoPauloViewController.swift */; };
+		A25773E31E96C1A600F2C256 /* ic_account_circle_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A25773E21E96C1A600F2C256 /* ic_account_circle_white.png */; };
+		A25773E51E96C20200F2C256 /* ic_location_on_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A25773E41E96C20200F2C256 /* ic_location_on_white.png */; };
+		A25773E71E96C25B00F2C256 /* ic_search_white.png in Resources */ = {isa = PBXBuildFile; fileRef = A25773E61E96C25B00F2C256 /* ic_search_white.png */; };
+		A2674A1C1E9E921D008810AE /* Entre o Medo e a Coragem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2674A1B1E9E921D008810AE /* Entre o Medo e a Coragem.mp3 */; };
+		A2EDABED1E97CD4300EB74CA /* AcreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EDABEC1E97CD4300EB74CA /* AcreViewController.swift */; };
+		A2EDABF51E97F2D700EB74CA /* BreakevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EDABF41E97F2D700EB74CA /* BreakevenViewController.swift */; };
+		A2FFF0AE1E96642800B6FB36 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFF0AD1E96642700B6FB36 /* SearchTableViewController.swift */; };
+		A2FFF0B21E966B5400B6FB36 /* soundwaves-can-hack-computers-researchers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2FFF0B11E966B5400B6FB36 /* soundwaves-can-hack-computers-researchers.jpg */; };
+		A2FFF0B41E966C1900B6FB36 /* sound-wave-motion-animation2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A2FFF0B31E966C1900B6FB36 /* sound-wave-motion-animation2.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F264E231E92AC3700BAC4FA /* Fim.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Fim.wav; sourceTree = "<group>"; };
 		3F264E251E92B8CD00BAC4FA /* BandaLegrand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BandaLegrand.jpg; sourceTree = "<group>"; };
-		3F264E271E92CAE800BAC4FA /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
-		3F264E291E92CD7400BAC4FA /* LocalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalViewController.swift; path = ../LocalViewController.swift; sourceTree = "<group>"; };
+		3F264E271E92CAE800BAC4FA /* LegrandPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegrandPlayerViewController.swift; sourceTree = "<group>"; };
 		3F264E2B1E93DEB700BAC4FA /* fotaredondalagrand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fotaredondalagrand.png; sourceTree = "<group>"; };
-		7C7F4F181E8ED799008DD0CE /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3FD630431E981C3A00FBAED3 /* BreakEven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BreakEven.png; sourceTree = "<group>"; };
+		3FD630471E981E0600FBAED3 /* ic_error_outline_white_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_error_outline_white_2x.png; sourceTree = "<group>"; };
+		3FD630491E981E1A00FBAED3 /* ic_pause_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_pause_white.png; sourceTree = "<group>"; };
+		3FD6304A1E981E1A00FBAED3 /* ic_play_arrow_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play_arrow_white.png; sourceTree = "<group>"; };
+		3FD6304B1E981E1A00FBAED3 /* ic_stop_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_stop_white.png; sourceTree = "<group>"; };
+		3FD6304F1E981E5700FBAED3 /* Fim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fim.mp3; sourceTree = "<group>"; };
 		7C7F4F1C1E8ED7D9008DD0CE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		7C7F4F1E1E8EDE3E008DD0CE /* FriendItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendItem.swift; sourceTree = "<group>"; };
 		7CA0051E1E8C24F700BA7719 /* ApoieACena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApoieACena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA005211E8C24F700BA7719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA005261E8C24F700BA7719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CA005281E8C24F700BA7719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CA0052B1E8C24F700BA7719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CA0052D1E8C24F700BA7719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CA005351E8D301F00BA7719 /* playApoieACena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playApoieACena.png; sourceTree = "<group>"; };
+		A204C87A1E97B29E00F3E14F /* LocalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
+		A204C87D1E97B46400F3E14F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A204C87F1E97B5B800F3E14F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A21949D21E9E63150059FD4E /* Zebu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zebu.png; sourceTree = "<group>"; };
+		A21949D41E9E63240059FD4E /* Zebu - Direito de te amar cover Belo ft Talento.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zebu - Direito de te amar cover Belo ft Talento.mp3"; sourceTree = "<group>"; };
+		A21949D51E9E63240059FD4E /* Zebu - Essa Tal Liberdade SPC Cover Remix ft Phillip Nutt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zebu - Essa Tal Liberdade SPC Cover Remix ft Phillip Nutt.mp3"; sourceTree = "<group>"; };
+		A21949D81E9E6A7E0059FD4E /* DireitodeAmarPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DireitodeAmarPlayerViewController.swift; sourceTree = "<group>"; };
+		A21D9B0D1E9E78020062B9B7 /* EssaLiberdadePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssaLiberdadePlayerViewController.swift; sourceTree = "<group>"; };
+		A25773DA1E967F3F00F2C256 /* light_visulation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light_visulation.jpg; sourceTree = "<group>"; };
+		A25773DC1E96A2D400F2C256 /* MinasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinasViewController.swift; sourceTree = "<group>"; };
+		A25773E01E96B8CA00F2C256 /* SaoPauloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaoPauloViewController.swift; sourceTree = "<group>"; };
+		A25773E21E96C1A600F2C256 /* ic_account_circle_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_account_circle_white.png; sourceTree = "<group>"; };
+		A25773E41E96C20200F2C256 /* ic_location_on_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_location_on_white.png; sourceTree = "<group>"; };
+		A25773E61E96C25B00F2C256 /* ic_search_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search_white.png; sourceTree = "<group>"; };
+		A2674A1B1E9E921D008810AE /* Entre o Medo e a Coragem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Entre o Medo e a Coragem.mp3"; sourceTree = "<group>"; };
+		A2EDABEC1E97CD4300EB74CA /* AcreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcreViewController.swift; sourceTree = "<group>"; };
+		A2EDABF41E97F2D700EB74CA /* BreakevenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakevenViewController.swift; sourceTree = "<group>"; };
+		A2FFF0AD1E96642700B6FB36 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		A2FFF0B11E966B5400B6FB36 /* soundwaves-can-hack-computers-researchers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "soundwaves-can-hack-computers-researchers.jpg"; sourceTree = "<group>"; };
+		A2FFF0B31E966C1900B6FB36 /* sound-wave-motion-animation2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sound-wave-motion-animation2.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A204C87E1E97B46400F3E14F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +97,7 @@
 			children = (
 				7CA005201E8C24F700BA7719 /* ApoieACena */,
 				7CA0051F1E8C24F700BA7719 /* Products */,
+				A204C87C1E97B46400F3E14F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,21 +112,49 @@
 		7CA005201E8C24F700BA7719 /* ApoieACena */ = {
 			isa = PBXGroup;
 			children = (
-				3F264E291E92CD7400BAC4FA /* LocalViewController.swift */,
 				7CA005211E8C24F700BA7719 /* AppDelegate.swift */,
-				3F264E271E92CAE800BAC4FA /* PlayerViewController.swift */,
-				7C7F4F181E8ED799008DD0CE /* SearchViewController.swift */,
+				A25773DC1E96A2D400F2C256 /* MinasViewController.swift */,
+				A2EDABEC1E97CD4300EB74CA /* AcreViewController.swift */,
+				A204C87A1E97B29E00F3E14F /* LocalViewController.swift */,
+				A25773E01E96B8CA00F2C256 /* SaoPauloViewController.swift */,
+				3F264E271E92CAE800BAC4FA /* LegrandPlayerViewController.swift */,
 				7C7F4F1C1E8ED7D9008DD0CE /* ProfileViewController.swift */,
+				A21949D81E9E6A7E0059FD4E /* DireitodeAmarPlayerViewController.swift */,
+				A21D9B0D1E9E78020062B9B7 /* EssaLiberdadePlayerViewController.swift */,
+				A2EDABF41E97F2D700EB74CA /* BreakevenViewController.swift */,
+				A2FFF0AD1E96642700B6FB36 /* SearchTableViewController.swift */,
 				7CA005251E8C24F700BA7719 /* Main.storyboard */,
 				7CA005281E8C24F700BA7719 /* Assets.xcassets */,
-				3F264E231E92AC3700BAC4FA /* Fim.wav */,
-				7CA005351E8D301F00BA7719 /* playApoieACena.png */,
-				7CA0052A1E8C24F700BA7719 /* LaunchScreen.storyboard */,
+				A204C87F1E97B5B800F3E14F /* Launch Screen.storyboard */,
+				3FD630471E981E0600FBAED3 /* ic_error_outline_white_2x.png */,
+				3FD630491E981E1A00FBAED3 /* ic_pause_white.png */,
+				3FD6304A1E981E1A00FBAED3 /* ic_play_arrow_white.png */,
+				3FD6304B1E981E1A00FBAED3 /* ic_stop_white.png */,
+				3FD6304F1E981E5700FBAED3 /* Fim.mp3 */,
+				3FD630431E981C3A00FBAED3 /* BreakEven.png */,
+				A2674A1B1E9E921D008810AE /* Entre o Medo e a Coragem.mp3 */,
 				3F264E2B1E93DEB700BAC4FA /* fotaredondalagrand.png */,
+				A25773E41E96C20200F2C256 /* ic_location_on_white.png */,
+				A25773E61E96C25B00F2C256 /* ic_search_white.png */,
+				A21949D21E9E63150059FD4E /* Zebu.png */,
+				A21949D41E9E63240059FD4E /* Zebu - Direito de te amar cover Belo ft Talento.mp3 */,
+				A21949D51E9E63240059FD4E /* Zebu - Essa Tal Liberdade SPC Cover Remix ft Phillip Nutt.mp3 */,
+				A25773E21E96C1A600F2C256 /* ic_account_circle_white.png */,
+				A25773DA1E967F3F00F2C256 /* light_visulation.jpg */,
+				A2FFF0B31E966C1900B6FB36 /* sound-wave-motion-animation2.gif */,
+				A2FFF0B11E966B5400B6FB36 /* soundwaves-can-hack-computers-researchers.jpg */,
 				7CA0052D1E8C24F700BA7719 /* Info.plist */,
 				3F264E251E92B8CD00BAC4FA /* BandaLegrand.jpg */,
 			);
 			path = ApoieACena;
+			sourceTree = "<group>";
+		};
+		A204C87C1E97B46400F3E14F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A204C87D1E97B46400F3E14F /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,8 +189,13 @@
 				TargetAttributes = {
 					7CA0051D1E8C24F700BA7719 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 57BET65MV6;
+						DevelopmentTeam = 3B3UPXANB7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -147,13 +222,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA0052C1E8C24F700BA7719 /* LaunchScreen.storyboard in Resources */,
-				7CA005361E8D301F00BA7719 /* playApoieACena.png in Resources */,
+				A25773E71E96C25B00F2C256 /* ic_search_white.png in Resources */,
+				3FD6304E1E981E1B00FBAED3 /* ic_stop_white.png in Resources */,
+				A2FFF0B41E966C1900B6FB36 /* sound-wave-motion-animation2.gif in Resources */,
+				A21949D71E9E63240059FD4E /* Zebu - Essa Tal Liberdade SPC Cover Remix ft Phillip Nutt.mp3 in Resources */,
+				3FD630501E981E5700FBAED3 /* Fim.mp3 in Resources */,
+				A204C8801E97B5B800F3E14F /* Launch Screen.storyboard in Resources */,
+				A2674A1C1E9E921D008810AE /* Entre o Medo e a Coragem.mp3 in Resources */,
 				3F264E261E92B8CD00BAC4FA /* BandaLegrand.jpg in Resources */,
-				3F264E241E92AC3700BAC4FA /* Fim.wav in Resources */,
+				3FD630481E981E0600FBAED3 /* ic_error_outline_white_2x.png in Resources */,
+				3FD6304D1E981E1B00FBAED3 /* ic_play_arrow_white.png in Resources */,
+				A25773E31E96C1A600F2C256 /* ic_account_circle_white.png in Resources */,
+				A21949D31E9E63150059FD4E /* Zebu.png in Resources */,
+				A25773E51E96C20200F2C256 /* ic_location_on_white.png in Resources */,
 				7CA005291E8C24F700BA7719 /* Assets.xcassets in Resources */,
+				A21949D61E9E63240059FD4E /* Zebu - Direito de te amar cover Belo ft Talento.mp3 in Resources */,
+				3FD630441E981C3A00FBAED3 /* BreakEven.png in Resources */,
+				A2FFF0B21E966B5400B6FB36 /* soundwaves-can-hack-computers-researchers.jpg in Resources */,
 				7CA005271E8C24F700BA7719 /* Main.storyboard in Resources */,
 				3F264E2C1E93DEB700BAC4FA /* fotaredondalagrand.png in Resources */,
+				3FD6304C1E981E1B00FBAED3 /* ic_pause_white.png in Resources */,
+				A25773DB1E967F3F00F2C256 /* light_visulation.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,11 +253,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F264E2A1E92CD7400BAC4FA /* LocalViewController.swift in Sources */,
-				7C7F4F191E8ED799008DD0CE /* SearchViewController.swift in Sources */,
+				A21949D91E9E6A7E0059FD4E /* DireitodeAmarPlayerViewController.swift in Sources */,
+				A2EDABF51E97F2D700EB74CA /* BreakevenViewController.swift in Sources */,
 				7C7F4F1D1E8ED7D9008DD0CE /* ProfileViewController.swift in Sources */,
+				A21D9B0E1E9E78020062B9B7 /* EssaLiberdadePlayerViewController.swift in Sources */,
+				A2FFF0AE1E96642800B6FB36 /* SearchTableViewController.swift in Sources */,
 				7CA005221E8C24F700BA7719 /* AppDelegate.swift in Sources */,
-				3F264E281E92CAE800BAC4FA /* PlayerViewController.swift in Sources */,
+				A25773E11E96B8CA00F2C256 /* SaoPauloViewController.swift in Sources */,
+				A204C87B1E97B29E00F3E14F /* LocalViewController.swift in Sources */,
+				A2EDABED1E97CD4300EB74CA /* AcreViewController.swift in Sources */,
+				3F264E281E92CAE800BAC4FA /* LegrandPlayerViewController.swift in Sources */,
+				A25773DD1E96A2D400F2C256 /* MinasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,14 +276,6 @@
 				7CA005261E8C24F700BA7719 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7CA0052A1E8C24F700BA7719 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7CA0052B1E8C24F700BA7719 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -234,7 +321,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -278,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -291,10 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57BET65MV6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3B3UPXANB7;
 				INFOPLIST_FILE = ApoieACena/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bepid.ApoieACena;
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.ApoieACena1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,10 +393,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57BET65MV6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3B3UPXANB7;
 				INFOPLIST_FILE = ApoieACena/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bepid.ApoieACena;
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.ApoieACena1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

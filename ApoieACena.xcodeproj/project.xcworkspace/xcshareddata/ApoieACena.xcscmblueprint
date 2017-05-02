@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4ADDCAF7C1577BECBA3078D07F52F45922ADCD8E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4ADDCAF7C1577BECBA3078D07F52F45922ADCD8E" : 9223372036854775807,
+    "AD4A8EF6E06FF7D45273C7D919B4048F2E43EE03" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C004D0ED-50FB-43EE-A75C-868D326BC8E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4ADDCAF7C1577BECBA3078D07F52F45922ADCD8E" : "ApoiaCena%202\/",
+    "AD4A8EF6E06FF7D45273C7D919B4048F2E43EE03" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ApoieACena",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ApoieACena.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/felipesheep\/ApoiaCena.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4ADDCAF7C1577BECBA3078D07F52F45922ADCD8E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:rssm\/AAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4A8EF6E06FF7D45273C7D919B4048F2E43EE03"
+    }
+  ]
+}
